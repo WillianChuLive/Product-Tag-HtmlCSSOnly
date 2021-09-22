@@ -113,3 +113,55 @@ body::before{
         transform: translateY(0);
     }
 }
+
+/* product description fonts n colors */
+.name{
+    font-family: 'dosis';
+    font-size: 70px;
+    text-transform: capitalize;
+}
+
+.info{
+    font-size: 18px;
+    line-height: 30px;
+    margin: 50px 0;
+}
+
+.price{
+    font-size: 70px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.btn-and-rating-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating img{
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+}
+
+.btn{
+    background: #eae3d2;
+    color: #292929;
+    border: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #eedbaf;
+}
